@@ -1,0 +1,14 @@
+<!-- .Write a javascript program to find all negative elements(using array filter method) -->
+<script>
+    const numbers = [-56,34,-67,23,90];
+    
+    let txt = "";
+    let ans = numbers.filter(myFunction);
+    
+    function myFunction(value, index, array) {
+    return value < 0;
+    }
+    
+    console.log("negative elements:-"+ans);
+    document.write("Ans = "+ans);
+    </script>
